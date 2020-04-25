@@ -4,6 +4,8 @@ import com.cvicse.blog.po.Type;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface TypeService {
 
     Type saveType(Type type);
@@ -11,6 +13,8 @@ public interface TypeService {
     Type getType(Long id);
 
     Type getTypeByName(String name);
+
+    List<Type> listType();
 
     Page<Type> listType(Pageable pageable);
 
