@@ -3,14 +3,12 @@ package com.cvicse.blog.po;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by limi on 2017/10/14.
- */
 @Data
 @NoArgsConstructor
 @ToString
@@ -21,6 +19,8 @@ public class Type {
     @Id
     @GeneratedValue
     private Long id;
+
+    @NotBlank(message = "不能为空")
     private String name;
 
     @OneToMany(mappedBy = "type")
