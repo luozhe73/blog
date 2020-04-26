@@ -18,7 +18,7 @@ public class LogAspect {
     /**
      * 定义切面
      */
-    @Pointcut("execution(* com.cvicse.blog.web.*.*(..))")
+    @Pointcut("execution(* com.cvicse.blog.web..*.*(..))")
     public void log() {
     }
 
