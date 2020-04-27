@@ -179,3 +179,186 @@
 2020-04-27 00:28:46.043  INFO 27796 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-04-27 00:28:46.048  INFO 27796 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-04-27 00:28:46.060  INFO 27796 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-27 19:30:46.359  INFO 16484 --- [restartedMain] com.cvicse.blog.BlogApplication          : Starting BlogApplication on DESKTOP-M5O1O9S with PID 16484 (C:\Users\luozhe73\IdeaProjects\blog\target\classes started by luozhe73 in C:\Users\luozhe73\IdeaProjects\blog)
+2020-04-27 19:30:46.361 DEBUG 16484 --- [restartedMain] com.cvicse.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-27 19:30:46.361  INFO 16484 --- [restartedMain] com.cvicse.blog.BlogApplication          : The following profiles are active: dev
+2020-04-27 19:30:46.393  INFO 16484 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\luozhe73\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-27 19:30:46.393  INFO 16484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-27 19:30:46.394  INFO 16484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-27 19:30:46.990  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-27 19:30:47.083  INFO 16484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 5 JPA repository interfaces.
+2020-04-27 19:30:47.725  INFO 16484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-27 19:30:47.734  INFO 16484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-27 19:30:47.734  INFO 16484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-27 19:30:47.825  INFO 16484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-27 19:30:47.826  INFO 16484 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1432 ms
+2020-04-27 19:30:48.006  INFO 16484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 19:30:48.079  INFO 16484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-27 19:30:48.187  INFO 16484 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 19:30:48.299  INFO 16484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-27 19:30:48.410  INFO 16484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-27 19:30:48.425  INFO 16484 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-27 19:30:49.167  INFO 16484 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 19:30:49.173  INFO 16484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:30:49.231  INFO 16484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-27 19:30:49.958  WARN 16484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-27 19:30:50.125  INFO 16484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:30:50.209  INFO 16484 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-27 19:30:50.817  INFO 16484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-27 19:30:50.819  INFO 16484 --- [restartedMain] com.cvicse.blog.BlogApplication          : Started BlogApplication in 4.828 seconds (JVM running for 8.668)
+2020-04-27 19:30:58.027  INFO 16484 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 19:30:58.027  INFO 16484 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-27 19:30:58.042  INFO 16484 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-27 19:30:58.065  INFO 16484 --- [http-nio-8080-exec-3] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.loginPage', args=[]}
+2020-04-27 19:30:58.069  INFO 16484 --- [http-nio-8080-exec-3] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/login
+2020-04-27 19:31:00.763  WARN 16484 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [241] milliseconds.
+2020-04-27 19:31:00.766  INFO 16484 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.login', args=[luozhe73, 5588, org.apache.catalina.session.StandardSessionFacade@58a96bbb, {}]}
+2020-04-27 19:31:00.814  INFO 16484 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/index
+2020-04-27 19:31:39.690  INFO 16484 --- [http-nio-8080-exec-9] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/blogs;jsessionid=8E7765DCCDDA02F2D3534819F1196D4D', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.BlogController.blogs', args=[Page request [number: 0, size 8, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=false), {blogQuery=BlogQuery(title=null, typeId=null, recommend=false), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-04-27 19:31:39.752  INFO 16484 --- [http-nio-8080-exec-9] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/blogs
+2020-04-27 19:31:41.284  INFO 16484 --- [http-nio-8080-exec-6] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/blogs/1/input', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.BlogController.editInput', args=[1, {}]}
+2020-04-27 19:31:41.347  INFO 16484 --- [http-nio-8080-exec-6] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/blogs-input
+2020-04-27 19:31:49.074  INFO 16484 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.BlogController.post', args=[Blog(id=1, title=安东尼经典语录, content=我怕你说话，我怕你沉默。 我怕你来到，我怕你离开。 我怕抓紧你，我怕放走你。 我怕你看到我，我怕你无视我。 我怕你想念我，我怕你忘记我。 我怕你过于依赖我，我怕你不再需要我。 我怕你爱我，我怕你不爱我。 我怕你太爱我，我怕你不够爱我。
+
+不管昨夜经历了怎样的泣不成声 早晨醒来这个城市依然车水马龙
+
+不要让那个喜欢你的人 撕心裂肺地为你哭那么一次 因为 你能把他伤害到那个样子的机会 只有一次 那一次以后 你就从不可或缺的人变成可有可无的人了 即使他还爱你 可是 总有一些东西真的改变了
+
+应该趁着年轻 和喜欢的人一起 制造些比夏天还要温暖的事
+
+风不懂云的漂泊。天不懂雨的落魄。眼不懂泪的懦弱。所以你不懂我的选择。也可以不懂我的难过。不是每一个人都一定要快乐。不是每一种痛都一定要诉说
+
+后来，我终于能接受，我们不会再在一起这个实事。我想我唯一能做的就是，继承那些，你拥有的让我着迷的品质，好好地生活下去。
+
+如果你喜欢的人不喜欢你，那么就算全世界的人都喜欢你，还是会觉得孤独吧。If the person you like doesn't like you ,wouldn't it still be lonely even if the whole world loves you.
+
+那些 我们一直惴惴不安 又充满好奇的未来 会在心里隐隐约约地觉得它们是明亮的
+
+人生，总会有不期而遇的温暖，和生生不息的希望。
+
+其实我一直相信 等你出现的时候我就知道是你
+
+我谈过最长的恋爱，就是自恋，我爱自己，没有情敌。
+
+不知道如何爱你，看着你，是我唯一的方式。I don't know how to love you ,looking at you is the only way i know
+
+我所知道的关于你的事情 就只有天气预报了
+
+我觉得 我们俩之间就像喝酒 我干杯 你随意
+
+玫瑰当然爱小王子 不过当你真的喜欢一个人的时候 就会想很多 会很容易办蠢事 说傻话 更别说 那个人像小王子那么可爱 玫瑰很温柔 其实她只是不知所措罢了 至于小王子 他还太小了 不明白玫瑰的温柔 他的离开也许并不是坏事
+
+最喜欢早上，好像什么都可以重新开始，中午的时候就开始觉得忧伤，晚上最难度过。
+
+I know that one day I will forgot you. I don't have anticipation. I don't feel sad. I just know, that's all.
+
+长大了 总有那么一两次机会 你会为了喜欢的人 跑那么一跑 因为 如果是对的人的话 走路真的来不及
+
+很久以后，那些好极了和糟透了的时刻我们都会忘记，唯一真实和难忘的是，我们抬头挺胸走过的人生。
+
+不论是我的世界车水马龙繁华盛世 还是它们都瞬间消失化为须臾 我都会坚定地走向你 不慌张 不犹豫, firstPicture=https://t8.baidu.com/it/u=3571592872,3353494284&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1588517189&t=9c55f6b4aae3770fb36a4bd0fed6b461, flag=原创, views=null, appreciation=true, shareStatement=true, commentabled=true, published=false, recommend=true, createTime=null, updateTime=null, tagIds=1,2, description=我的第一篇博客, type=Type(id=1, name=null, blogs=[]), tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@58a96bbb]}
+2020-04-27 19:31:49.216  INFO 16484 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Return ------ redirect:/admin/blogs
+2020-04-27 19:31:49.231  INFO 16484 --- [http-nio-8080-exec-3] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.BlogController.blogs', args=[Page request [number: 0, size 8, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=false), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=false), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2020-04-27 19:31:49.247  INFO 16484 --- [http-nio-8080-exec-3] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/blogs
+2020-04-27 19:32:49.754  INFO 16484 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:32:49.755  INFO 16484 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:32:49.758  INFO 16484 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-27 19:32:49.769  INFO 16484 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-27 19:41:48.170  INFO 5192 --- [restartedMain] com.cvicse.blog.BlogApplication          : Starting BlogApplication on DESKTOP-M5O1O9S with PID 5192 (C:\Users\luozhe73\IdeaProjects\blog\target\classes started by luozhe73 in C:\Users\luozhe73\IdeaProjects\blog)
+2020-04-27 19:41:48.174 DEBUG 5192 --- [restartedMain] com.cvicse.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-27 19:41:48.174  INFO 5192 --- [restartedMain] com.cvicse.blog.BlogApplication          : The following profiles are active: dev
+2020-04-27 19:41:48.221  INFO 5192 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\luozhe73\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-27 19:41:48.221  INFO 5192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-27 19:41:48.221  INFO 5192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-27 19:41:48.800  INFO 5192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-27 19:41:48.878  INFO 5192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 5 JPA repository interfaces.
+2020-04-27 19:41:49.589  INFO 5192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-27 19:41:49.597  INFO 5192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-27 19:41:49.597  INFO 5192 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-27 19:41:49.681  INFO 5192 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-27 19:41:49.681  INFO 5192 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1460 ms
+2020-04-27 19:41:49.848  INFO 5192 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 19:41:49.903  INFO 5192 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-27 19:41:50.036  INFO 5192 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 19:41:50.135  INFO 5192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-27 19:41:50.262  INFO 5192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-27 19:41:50.277  INFO 5192 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-27 19:41:51.074  INFO 5192 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 19:41:51.079  INFO 5192 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:41:51.131  INFO 5192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-27 19:41:51.829  WARN 5192 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-27 19:41:52.013  INFO 5192 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:41:52.096  INFO 5192 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-27 19:41:52.687  INFO 5192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-27 19:41:52.689  INFO 5192 --- [restartedMain] com.cvicse.blog.BlogApplication          : Started BlogApplication in 4.987 seconds (JVM running for 6.121)
+2020-04-27 19:42:57.952  INFO 5192 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 19:42:57.953  INFO 5192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-27 19:42:57.967  INFO 5192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-27 19:42:57.991  INFO 5192 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.loginPage', args=[]}
+2020-04-27 19:42:57.995  INFO 5192 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/login
+2020-04-27 19:43:00.381  WARN 5192 --- [http-nio-8080-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [240] milliseconds.
+2020-04-27 19:43:00.383  INFO 5192 --- [http-nio-8080-exec-9] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.login', args=[luozhe73, 5588, org.apache.catalina.session.StandardSessionFacade@1057bb51, {}]}
+2020-04-27 19:43:00.423  INFO 5192 --- [http-nio-8080-exec-9] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/index
+2020-04-27 19:43:01.560  INFO 5192 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types;jsessionid=CB035347BD61C6538199BFE2C0E73208', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.types', args=[Page request [number: 0, size 3, sort: id: DESC], {}]}
+2020-04-27 19:43:01.604  INFO 5192 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types
+2020-04-27 19:43:03.863  INFO 5192 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types/input', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.input', args=[{}]}
+2020-04-27 19:43:03.864  INFO 5192 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types-input
+2020-04-27 19:43:07.955  INFO 5192 --- [http-nio-8080-exec-7] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.post', args=[Type(id=null, name=游戏, blogs=[]), org.springframework.validation.BeanPropertyBindingResult: 0 errors, {}]}
+2020-04-27 19:43:08.020  INFO 5192 --- [http-nio-8080-exec-7] com.cvicse.blog.aspect.LogAspect         : Return ------ redirect:/admin/types
+2020-04-27 19:43:08.038  INFO 5192 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.types', args=[Page request [number: 0, size 3, sort: id: DESC], {message=新增成功！}]}
+2020-04-27 19:43:08.059  INFO 5192 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types
+2020-04-27 19:51:13.130  INFO 5192 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:51:13.131  INFO 5192 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:51:13.135  INFO 5192 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-27 19:51:13.146  INFO 5192 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-27 19:52:02.333  INFO 30364 --- [restartedMain] com.cvicse.blog.BlogApplication          : Starting BlogApplication on DESKTOP-M5O1O9S with PID 30364 (C:\Users\luozhe73\IdeaProjects\blog\target\classes started by luozhe73 in C:\Users\luozhe73\IdeaProjects\blog)
+2020-04-27 19:52:02.335 DEBUG 30364 --- [restartedMain] com.cvicse.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-27 19:52:02.336  INFO 30364 --- [restartedMain] com.cvicse.blog.BlogApplication          : The following profiles are active: dev
+2020-04-27 19:52:02.368  INFO 30364 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\luozhe73\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/luozhe73/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-27 19:52:02.368  INFO 30364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-27 19:52:02.368  INFO 30364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-27 19:52:02.967  INFO 30364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-27 19:52:03.044  INFO 30364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 5 JPA repository interfaces.
+2020-04-27 19:52:03.649  INFO 30364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-27 19:52:03.656  INFO 30364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-27 19:52:03.656  INFO 30364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-27 19:52:03.752  INFO 30364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-27 19:52:03.752  INFO 30364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1383 ms
+2020-04-27 19:52:03.914  INFO 30364 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 19:52:03.965  INFO 30364 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-27 19:52:04.072  INFO 30364 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 19:52:04.145  INFO 30364 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-27 19:52:04.250  INFO 30364 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-27 19:52:04.264  INFO 30364 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-27 19:52:04.922  INFO 30364 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 19:52:04.927  INFO 30364 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:52:04.980  INFO 30364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-27 19:52:05.677  WARN 30364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-27 19:52:05.856  INFO 30364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:52:05.951  INFO 30364 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-27 19:52:06.522  INFO 30364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-27 19:52:06.524  INFO 30364 --- [restartedMain] com.cvicse.blog.BlogApplication          : Started BlogApplication in 4.72 seconds (JVM running for 5.772)
+2020-04-27 19:52:10.950  INFO 30364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 19:52:10.952  INFO 30364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-27 19:52:10.968  INFO 30364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-04-27 19:52:10.999  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-27 19:52:11.074  WARN 30364 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-27 19:52:11.110  WARN 30364 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-27 19:52:11.121  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Return ------ index
+2020-04-27 19:52:12.927  INFO 30364 --- [http-nio-8080-exec-4] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.loginPage', args=[]}
+2020-04-27 19:52:12.930  INFO 30364 --- [http-nio-8080-exec-4] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/login
+2020-04-27 19:52:15.493  WARN 30364 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [241] milliseconds.
+2020-04-27 19:52:15.495  INFO 30364 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.LoginController.login', args=[luozhe73, 5588, org.apache.catalina.session.StandardSessionFacade@2f0b6aad, {}]}
+2020-04-27 19:52:15.505  INFO 30364 --- [http-nio-8080-exec-10] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/index
+2020-04-27 19:52:16.887  INFO 30364 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types;jsessionid=623FEA396E20C54FE4BA708C2C2D01AD', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.types', args=[Page request [number: 0, size 3, sort: id: DESC], {}]}
+2020-04-27 19:52:16.916  INFO 30364 --- [http-nio-8080-exec-8] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types
+2020-04-27 19:52:18.746  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types/input', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.input', args=[{}]}
+2020-04-27 19:52:18.747  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types-input
+2020-04-27 19:52:22.960  INFO 30364 --- [http-nio-8080-exec-6] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.post', args=[Type(id=null, name=娱乐, blogs=[]), org.springframework.validation.BeanPropertyBindingResult: 0 errors, {}]}
+2020-04-27 19:52:23.008  INFO 30364 --- [http-nio-8080-exec-6] com.cvicse.blog.aspect.LogAspect         : Return ------ redirect:/admin/types
+2020-04-27 19:52:23.028  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Rquest  ----- ReqeustLog{url='http://localhost:8080/admin/types', ip='0:0:0:0:0:0:0:1', classMethod='com.cvicse.blog.web.admin.TypeController.types', args=[Page request [number: 0, size 3, sort: id: DESC], {message=新增成功！}]}
+2020-04-27 19:52:23.042  INFO 30364 --- [http-nio-8080-exec-1] com.cvicse.blog.aspect.LogAspect         : Return ------ admin/types
+2020-04-27 19:52:28.998  INFO 30364 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:52:28.999  INFO 30364 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:52:29.002  INFO 30364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-27 19:52:29.012  INFO 30364 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
